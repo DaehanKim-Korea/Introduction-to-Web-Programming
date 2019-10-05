@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>assignment</title>
+</head>
+<body>
+<form action="">
+    <b>시작 그룹</b><br>
+    <input type="radio" name="start_group" id="open">
+    <label for="open">새 탭 페이지 열기</label><br>
+    <input type="radio" name="start_group" id="continue">
+    <label for="continue">중단한 위치에서 계속하기</label><br>
+    <input type="radio" name="start_group" id="open_2">
+    <label for="open_2">특정 페이지 또는 페이지 모음 열기</label><br><br>
+    <b>개인정보 및 보안</b><br>
+    <input type="checkbox" name="service" id="service">
+    <label for="service">동기화 및 서비스</label><br>
+    <input type="checkbox" name="login" id="login">
+    <label for="login">로그인 허용</label><br>
+    <input type="checkbox" name="load" id="load">
+    <label for="load">페이지 미리 로드</label>
+    
+    <h1>글 작성하기</h1>
+    <table>
+        <tr>
+            <td><label for="name">작성자</label></td>
+            <td><input id="name"type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="ID">아이디</label></td>
+            <td><input id="ID"type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="email">이메일</label></td>
+            <td><input id="email"type="text">@<input id="email"type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">휴대폰</label></td>
+            <td>    
+                <select name="" id="">
+                    <option value="010">010</option>
+                    <option value="011">011</option>
+                    <option value="016">016</option>
+                </select>
+                - <input type="number"> - <input type="number">
+            </td>
+        </tr>
+        <tr>
+            <td><label for="title">글 제목</label></td>
+            <td><input id="title"type="text"></td>
+        </tr>
+        <tr>
+            <td>내용</td>
+            <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+        <td><input type="hidden" name="hidden"></td>
+        <td><input type="submit" value="제출"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
