@@ -3,12 +3,19 @@
 <img src="./assets/example_01.png">
 <img  src="./assets/example_02.png">
 
-
 ## Task_02 <u>example_03.html</u> /<u> example_04.html</u>
-
+<div id = header>
+<div id = body_01>
 <img src="./assets/example_03_1.png">
+</div>
+<div id = body_02>
+</div>
 <img  src="./assets/example_03_3.png">
+<div id = body_03>
+
 <img  src="./assets/example_03_2.png">
+</div>
+</div>
 <img  src="./assets/example_04.png">
 
 ## Task_03 <u>example_05.html</u> /<u> example_06.html</u>
