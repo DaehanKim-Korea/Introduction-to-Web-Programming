@@ -1,19 +1,23 @@
-## title 01. Get/Post method
+## Task_01 <u>example_01.html </u>/ <u>example_02.html</u>
 
-    <!-- Get 전송 방식 -->
-    <form action="전송 위치" method="GET">
-        <input type="text" name= "search">
-        <input type="submit">
-    </form>
+<img src="./assets/example_01.png">
+<img  src="./assets/example_02.png">
 
-    <!-- Post 전송 방식 -->
-    <form action="전송 위치" method="post">
-            <input type="text" name= "search">
-            <input type="submit">
-        </form>
 
-Get method | Post method
--------------|--------------
-주소에 데이터를 입력하여 전달. | 데이터를 별도로 전달.
-데이터에 <b>용량제한이 있다. | 데이터에 <b>용량제한이 없다.
-주소뒤에 일정 값이 <b>붙는다. | 주소뒤에 일정 값이 붙지 <b>않는다.
+## Task_02 <u>example_03.html</u> /<u> example_04.html</u>
+
+<img src="./assets/example_03_1.png">
+<img  src="./assets/example_03_3.png">
+<img  src="./assets/example_03_2.png">
+<img  src="./assets/example_04.png">
+
+## Task_03 <u>example_05.html</u> /<u> example_06.html</u>
+<img  src="./assets/example_05.png" width = "50%">
+<img  src="./assets/example_06.png" width = "50%">
+
+## Task_04 <u>Question_05.html</u> /<u> Question_06.html</u>
+<img  src="./assets/Q1.png" width = "50%">
+<img  src="./assets/Q2.png" width = "50%">
+
+## Task_05 <u>assignment.html</u>
+<img  src="./assets/A1.png" width = "50%">
