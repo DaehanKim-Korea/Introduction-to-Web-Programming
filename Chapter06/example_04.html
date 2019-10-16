@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_04</title>
+    <style>
+        /* class_method */
+        .header_01 {
+            border: 3px solid red;
+        }
+
+        .header_02 {
+            border: 3px solid blue;
+            /* block -> inline */
+            display: inline;
+        }
+
+        .header_03 {
+            border: 3px solid blueviolet;
+        }
+
+        .header_04 {
+            border: 3px solid red;
+        }
+
+        .header_05 {
+            border: 3px solid blue;
+            display: block;
+            margin: 10px 0 ;
+
+        }
+
+        .header_06 {
+            border: 3px solid blueviolet;
+        }
+
+        .header_07 {
+            border: 3px solid red;
+        }
+
+        .header_08 {
+            border: 3px solid blue;
+
+        }
+
+        .header_09 {
+            border: 3px solid blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <hr>
+    <p> ## block ## </p>
+    <div class="header_07"> content_01
+    </div>
+    <div class="header_08"> content_02
+    </div>
+    <div class="header_09"> content_03
+    </div>
+    <hr>
+
+    <p> ## inline ## </p>
+    <span class="header_04"> content_01
+    </span>
+    <span class="header_05"> content_02
+    </span>
+    <span class="header_06"> content_03
+    </span>
+    <hr>
+
+    <p> ## block -> inline ## </p>
+    <span class="header_01"> content_01
+    </span>
+    <div class="header_02"> content_02
+    </div>
+    <span class="header_03"> content_03
+    </span>
+    <hr>
+
+    <p> ## inline -> block ## </p>
+    <span class="header_04"> content_01
+    </span>
+    <span class="header_05"> content_02
+    </span>
+    <span class="header_06"> content_03
+    </span>
+
+
+</body>
+
+</html>
