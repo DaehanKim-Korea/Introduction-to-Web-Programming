@@ -8,16 +8,17 @@
     <title>example_04</title>
 
     <style>
-        #header>h1 {
+        /* header class의 h1에 만 해당된다. */
+        .header>h1 {
             color: red;
         }
 
-        #header h2,
-        #header h3 {
+        .header h2,
+        .header h3 {
             color: rgb(0, 255, 21)
         }
 
-        #section>p {
+        .section>p {
             color: blue;
             background-color: yellow;
         }
@@ -26,9 +27,10 @@
 
 <body>
     <!-- method_01 -->
-    <div id="header">
-        <h1>Lorem_ipsum</h1>
+    <div class="header">
+        <h1>Lorem_ipsum_01</h1>
         <div>
+            <h1>Lorem_ipsum_01</h1>
             <h1>Navigation</h1>
             <h2>area</h2>
             <h3>area</h3>
@@ -37,7 +39,7 @@
 
     <h2>area</h2>
 
-    <div id="section">
+    <div class="section">
         <h1>Lorem_ipsum</h1>
         <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
