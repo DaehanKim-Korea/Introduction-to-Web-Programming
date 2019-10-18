@@ -7,50 +7,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>example_01</title>
     <style>
-        #header {
-            background-color: red;
+        .title {
             width: 800px;
+            background: red;
             margin: 0 auto;
-        }
-
-        #aside_02 {
-            background-color: blue;
-            width: 200px;
-            float: left;
 
         }
 
-        #content_02 {
-            background-color: green;
-            width: 600px;
-            float: left;
-
-        }
-
-        #warp {
+        .warp {
             width: 800px;
-            margin: 0 auto;
             overflow: hidden;
+            margin: 0 auto;
 
+        }
+
+        .aside_tag {
+            width: 200px;
+            background: blue;
+            float: left;
+        }
+
+        .content_tag {
+            width: 600px;
+            background: green;
+            float: left;
         }
     </style>
 </head>
 
 <body>
-    <div id="header">
+
+    <div class="title">
         <h1>#header_tag</h1>
     </div>
 
-    <div id="warp">
-        <div id="aside_02">
+    <div class=warp>
+        <div class=aside_tag>
             <h1>#aside_tag</h1>
         </div>
-
-        <div id="content_02">
+        <div class=content_tag>
             <h1>#content_tag</h1>
         </div>
     </div>
-
 </body>
 
 </html>
