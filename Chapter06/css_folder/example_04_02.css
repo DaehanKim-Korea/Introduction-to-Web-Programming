@@ -1,0 +1,94 @@
+    .inline_block_01 {
+        border: red solid 2px;
+        display: inline;
+        /* It can't be applied up and down. Because display: inline. */
+        margin: 100px;
+    }
+
+    .inline_block_02 {
+        border: green solid 2px;
+        display: inline;
+        /*Check out the results. This indicates an incorrect result. Because display: inline.  */
+        padding: 100px;
+    }
+
+    .inline_block_03 {
+        border: blue solid 2px;
+        display: inline;
+    }
+
+    .inline_block_04 {
+        border: red solid 2px;
+        display: inline;
+        margin: 100px;
+    }
+
+    .inline_block_05 {
+        border: green solid 2px;
+        display: inline;
+    }
+
+    .inline_block_06 {
+        border: blue solid 2px;
+        display: inline;
+    }
+
+    .inline_block_07 {
+        border: red solid 2px;
+        display: inline-block;
+        margin: 100px;
+    }
+
+    .inline_block_08 {
+        border: green solid 2px;
+        display: inline-block;
+        padding: 100px;
+    }
+
+    .inline_block_09 {
+        border: blue solid 2px;
+        display: inline-block;
+    }
+    .inline_block_10 {
+        border: red solid 2px;
+        display: inline-block;
+    }
+
+    .inline_block_11 {
+        border: green solid 2px;
+        display: inline-block;
+    }
+
+    .inline_block_12 {
+        border: blue solid 2px;
+        display: inline-block;
+    }
+    .inline_block_13 {
+        border: red solid 2px;
+        display: inline-block;
+    }
+
+    .inline_block_14 {
+        border: green solid 2px;
+        display: inline-block;
+        float: left;
+    }
+
+    .inline_block_15 {
+        border: blue solid 2px;
+        display: inline-block;
+        float: left;
+    }
+    .span_01{
+        border: red solid 2px;
+        float: left;
+    }
+    .span_02{
+        border: blue solid 2px;
+        float: left;
+    }
+    .span_03{
+        border: green solid 2px;
+        float: left;
+
+    }
