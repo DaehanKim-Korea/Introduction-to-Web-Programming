@@ -1,0 +1,20 @@
+.table_01{
+    background-color: gray;
+}
+#title{
+    font-size: 25px;
+    font-weight:bold;
+}
+#element{
+    text-align: center;
+}
+
+input[type=submit]{
+    background-color: white;
+    width: 100%;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}

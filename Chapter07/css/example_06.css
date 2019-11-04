@@ -1,0 +1,22 @@
+.top_bar{
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: red;
+    position: fixed;
+}
+
+.left_bar{
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: blue;
+    position: fixed;
+}
+
+.container{
+    margin-top: 50px;
+    margin-left: 50px;
+}

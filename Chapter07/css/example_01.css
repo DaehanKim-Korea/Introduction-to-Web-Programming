@@ -1,0 +1,13 @@
+div.container_01{
+    overflow: hidden;
+    border: solid red 1px;
+}
+.item_01{
+    float: left;
+    border: solid black 1px;
+    width: 100px;   
+    height: 50px;
+    margin: 0px 10px;
+    padding: 10px;
+    
+}

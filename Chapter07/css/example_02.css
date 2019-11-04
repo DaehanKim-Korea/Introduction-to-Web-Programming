@@ -1,0 +1,13 @@
+/* initialize */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* title */
+body {
+    /* Center alignment */
+    margin: 0 auto;
+    /* necessary */
+    width: 700px;
+}

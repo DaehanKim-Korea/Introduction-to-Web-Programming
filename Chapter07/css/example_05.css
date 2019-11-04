@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: red;
+}
+
+.container_01 {
+    position: absolute;
+    background-color: orange;
+
+    width: 500px;
+    height: 250px;
+
+    left: 50%;
+    top: 50%;
+
+    /* Since the starting position is the center, 
+    the starting position should be at the center of the element. */
+    margin-left: -250px;
+    margin-top: -125px;
+}

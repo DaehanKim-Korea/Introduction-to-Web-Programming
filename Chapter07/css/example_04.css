@@ -1,0 +1,33 @@
+.container_01 {
+    width: 500px;
+    height: 300px;
+    border: solid black 3px;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.circle#red {
+    left: 20px;
+    top: 20px;
+    background-color: red;
+}
+.circle#green{
+    right: 20px;
+    top: 20px;
+    background-color: green;
+}
+.circle#yellow{
+    left: 20px;
+    bottom: 20px;
+    background-color: yellow;
+}
+.circle#blue{
+    right: 20px;
+    bottom: 20px;
+    background-color: blue;
+}
