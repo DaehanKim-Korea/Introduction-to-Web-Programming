@@ -1,2 +1,2 @@
 # Introduction-to-Web-Programming
-<img  src="./assets/Title.png" width = "100%">
+<img  src="./assets/Title.png" width = "50%">
