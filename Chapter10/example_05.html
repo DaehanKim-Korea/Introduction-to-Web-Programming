@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_05</title>
+    <script>
+        // 이벤트 연결
+        window.onload = function () {
+        
+            var output = '';
+
+            for (var i = 0; i < 256; i++) {
+                output += '<div></div>';
+            }
+            document.body.innerHTML = output;
+
+            // 문서 객체
+            var divs = document.querySelectorAll('div');
+
+            for (var i = 0; i < divs.length; i++) {
+
+                var div = divs[i]
+
+                div.style.height = '2px';
+                div.style.background = 'rgb(' + i + ',' + i + ',' + i + ')';
+            }
+        };
+
+    </script>
+</head>
+
+<body>
+
+
+
+</body>
+
+</html>

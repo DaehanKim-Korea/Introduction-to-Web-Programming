@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_02(querySelector)</title>
+    <script>
+        // 이벤트 연결
+        window.onload = function () {
+            
+            // var header = document.getElementById('header')
+            var header = document.querySelector('h1')
+
+            header.style.color = 'orange';
+            header.style.backgroundColor = 'red';
+            // id (header) elementvalue change
+            header.innerHTML = 'From Javascript'
+        };
+    </script>
+</head>
+
+<body>
+
+    <!-- <h1 id="header">Header</h1> -->
+    
+    <h1>Header</h1>
+    <h1>Header</h1>
+    <h1>Header</h1>
+
+</body>
+
+</html>

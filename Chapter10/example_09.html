@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_09</title>
+    <script>
+
+        // method_02
+        function buttonClick() {
+            alert('click')
+        }
+        // method_03
+        window.onload = function () {
+            var button = document.getElementById('button');
+            button.onclick = function () {
+                alert('click');
+            }
+        };
+    </script>
+</head>
+
+<body>
+
+    <!-- method_01 -->
+    <button onclick="alert('click')">button</button>
+
+    <!-- method_02 -->
+    <button onclick="buttonClick()">button</button>
+
+    <!-- method_03 -->
+    <button id="button">button</button>
+</body>
+
+</html>

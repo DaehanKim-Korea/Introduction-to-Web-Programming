@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_10</title>
+    <script>
+
+        // method_02
+        function buttonClick() {
+            alert('click')
+        }
+        // method_03
+        window.onload = function () {
+            var button = document.getElementById('button');
+            button.onclick = function () {
+                return false;
+            }
+        };
+    </script>
+</head>
+
+<body>
+
+    <a id="button" href="http://www.naver.com">naver.com</a>
+
+</body>
+
+</html>
