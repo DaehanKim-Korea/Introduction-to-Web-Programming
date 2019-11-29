@@ -1,0 +1,16 @@
+.reference_link >:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 2px solid blue; */
+    margin-bottom: 20px;
+}
+.reference_link >:last-child {
+    font-size: 20px;
+    font-weight: bold;
+    /* border: 2px solid blue; */
+    margin-bottom: 20px;
+}
+#footer{
+    font-size: x-large;
+    font-weight: bold;
+}
