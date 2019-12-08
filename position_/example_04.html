@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_04.html_(위치 속성 공식)</title>
+</head>
+<style>
+    
+    body>div{
+        width: 400px;height: 100px;
+        border: 3px solid black;
+        position: relative;
+        /* overflow: scroll; */
+        /* overflow-x: scroll; */
+        overflow-y: scroll;
+        /* overflow:hidden; */
+    }
+    .box {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+    }
+
+    .box:nth-child(1) {
+        background-color: red;
+        left: 10px;
+        right: 10px;
+        z-index: 100;
+    }
+
+    .box:nth-child(2) {
+        background-color: green;
+        left: 50px;
+        right: 50px;
+        z-index: 50;
+    }
+
+    .box:nth-child(3) {
+        background-color: blue;
+        left: 90px;
+        right: 90px;
+        z-index: 10;
+    }
+</style>
+
+<body>
+    <h1>lorem ipsum dolor amet</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>lorem ipsum dolor amet</h1>
+</body>
+
+</html>

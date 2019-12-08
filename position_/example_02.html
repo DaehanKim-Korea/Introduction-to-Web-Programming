@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_02.html_(absolute_left,right)</title>
+</head>
+<style>
+    .box{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+    .box:nth-child(1){
+        background-color: red;
+        left: 10px;  right: 10px;
+    }
+    .box:nth-child(2){
+        background-color: green;
+        left: 50px;  right: 50px;
+    }
+    .box:nth-child(3){
+        background-color: blue;
+        left: 90px;  right: 90px;
+    }
+</style>
+<body>
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>    
+</body>
+</html>
