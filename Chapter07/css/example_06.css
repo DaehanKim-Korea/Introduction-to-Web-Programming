@@ -2,6 +2,8 @@
     top: 0;
     left: 0;
     right: 0;
+
+
     height: 50px;
     background-color: red;
     position: fixed;
@@ -11,12 +13,23 @@
     top: 50px;
     left: 0;
     bottom: 0;
+    
     width: 50px;
     background-color: blue;
     position: fixed;
 }
 
+.bottom_bar{
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: blueviolet;
+}
+
 .container{
     margin-top: 50px;
     margin-left: 50px;
+    margin-bottom: 50px;
 }
