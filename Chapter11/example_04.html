@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_04(jquery)</title>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        // 이벤트 연결
+        $(document).ready(function () {
+
+            // method_01
+            // $('.box').css('float','left');
+            // $('.box').css('margin',10);
+            // $('.box').css('width',100);
+            // $('.box').css('height',100);
+            // $('.box').css('backgroundColor','red');
+
+            // method_02
+            // $('.box').css({
+            //     float: 'left',
+            //     margin: 10,
+            //     width: 100,
+            //     height: 100,
+            //     backgroundColor: 'blue'
+            // });
+
+            // method_03
+            var output = '';
+            for (var i = 0; i < 256; i++) {
+                output += '<div></div>';
+            }
+            document.body.innerHTML = output;
+
+            $('div').css({
+                height: 2,
+                backgroundColor: function (i) {
+                    return 'rgb(' + i + ',' + i + ',' + i + ')';
+                }
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+</body>
+
+</html>

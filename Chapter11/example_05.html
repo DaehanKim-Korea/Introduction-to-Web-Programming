@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_05(jquery)</title>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        // 이벤트 연결
+        $(document).ready(function () {
+            var text = $('h1').text();
+            var html = $('h1').html();
+
+            alert("text : " + text);
+            alert("html : " + html);
+        })
+    </script>
+</head>
+
+<body>
+    <h1>Header_01</h1>
+    <h1>Header_02</h1>
+
+
+</body>
+
+</html>

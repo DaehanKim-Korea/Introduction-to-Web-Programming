@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>example_03(jquery)</title>
+    <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        // 이벤트 연결
+        $(document).ready(function () {
+            // method_01
+            // $('img').attr('src','http://placehold.it/100x100');
+            // $('img').attr('alt','jquery');
+            // $('img').attr('width','100');
+
+            // method_02
+            // $('img').attr({
+            //     src: 'http://placehold.it/100x100',
+            //     alt: 'jquery',
+            //     width: 100
+            // })
+
+            // method_03
+            $('img').attr({
+
+                alt: 'jquery',
+                src: function (index) {
+                    var size = (index + 1) * 100;
+                    return 'http://placehold.it/' + size + 'x100';
+                },
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <img src="" alt="">
+    <img src="" alt="">
+    <img src="" alt="">
+
+</body>
+
+</html>
